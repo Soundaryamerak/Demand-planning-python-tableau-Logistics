@@ -3,7 +3,7 @@ Determining the best ML models to forecast demand for a Brazilian Logistics Comp
 
 ## Data
 The dataset of a brazilian logistics company collected over a period of 60 days. [Data from here](https://archive.ics.uci.edu/dataset/409/daily+demand+forecasting+orders)
-/
+
 ## ML models used:
 Linear Regression
 
@@ -11,7 +11,8 @@ Random Forest Regression
 
 Gradiant Boosting
 
-## Steps taken in Python code.
+## Steps taken in Python code. [Python File](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/blob/main/Demand%20Forecasting.ipynb)
+
 1. Import all necessary libraries (matplotlib, seaborn, pandas, numpy, Scikit-learn (Sklearn - model selection, linear model, preprocessing, metrics), imblearn, collections,Ucimlrepo)
 2. Understand the data with summarizing & visualisation
 3. Split the data without dropping any variables into train & test sample.
