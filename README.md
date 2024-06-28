@@ -33,29 +33,53 @@ Gradiant Boosting
 ## Understanding the data
 
 1. A total of 13 variables, with *week of the month and day of the week* to denote the date, 10 different types of orders(*Features*), and total orders as *Target*, and no missing values. Most orders of the quantity between 250 to 350
+   
    ![image](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/assets/170541567/b39d99e5-ae16-42d5-b154-ca214f3fbdd5)
+   
    ![image](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/assets/170541567/2d367f07-791c-4071-ac6e-420ccb8dab56)
 
 
 2. A strong corelation can be observed between features Non-urgent orders and order type B with Total orders. Order type (c), Banking orders(2), and Urgent orders follow next. Another notable correlation is between the features order type B and non-urgent orders. (The 2 more corelated features with total orders).
+ 
    ![image](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/assets/170541567/1f3d85d4-9a8b-4cc7-b4b4-60b4fb91699e)
 
 ## Evaluation of Linear regression model
+
 ![image](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/assets/170541567/d10624f3-f0ba-4672-8385-a6aec848784a)
 
 
-## Evaluation after Random forest regression model
+## Evaluation after inital Random forest regression model with feature engineering.
+
+![image](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/assets/170541567/c91cd572-740c-42bc-bfab-e643cce7caa2)
+
+## Selecting top features of importance>0.1.
+
+![image](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/assets/170541567/0b67957f-d048-472f-b236-82b5e0d0bc0d)
+
+## Evaluation after Random forest regression model with only Top features.
+
+![image](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/assets/170541567/e9c75d46-e559-4a78-98a2-0b35e9be2570)
+
+## Evaluation of Random forest regression model after hyperparameter tuning.
+
+![image](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/assets/170541567/64e58081-c64d-45b3-aca7-eb741e63b1e1)
 
 
-![image](https://github.com/Soundaryamerak/Fraud-detection-Python-credit-card-transactions/assets/170541567/23157d51-2525-42ce-b361-8f76a8dc4e02)
+## Evaluation of Gradient boosting
 
-## Evaluation of Random forest classifier model
+![image](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/assets/170541567/117ad70d-3fae-4609-ba8e-99b12e87aad5)
 
-![image](https://github.com/Soundaryamerak/Fraud-detection-Python-credit-card-transactions/assets/170541567/635f8df3-a6f3-40ae-a90f-5b4c0685ef22)
+## Evaluation of Gradiant boosting after hyperparameter tuning
 
-## Evaluation of Random forest classifier model after hyperparamater tuning
+![image](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/assets/170541567/9ba4e8d5-07ad-4772-8ba4-6a925f2cdc08)
 
-![image](https://github.com/Soundaryamerak/Fraud-detection-Python-credit-card-transactions/assets/170541567/9eb090f2-00b8-4cc3-b091-f62aa4c1fab6)
+![image](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/assets/170541567/740f65a5-8fe3-49dc-a42c-a05675afbdb6)
+
+
+## Visualising using Tableau
+
+![image](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/assets/170541567/57ceb1cc-99c2-4cf4-86cb-69eb35d3c45e)
+
 
 ## Comparing results
 
