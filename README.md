@@ -11,16 +11,23 @@ Random Forest Regression
 
 Gradiant Boosting
 
-## Steps taken in Python
+## Steps taken in Python code.
 1. Import all necessary libraries (matplotlib, seaborn, pandas, numpy, Scikit-learn (Sklearn - model selection, linear model, preprocessing, metrics), imblearn, collections,Ucimlrepo)
 2. Understand the data available with visualisation
-3. Split the data in train & test sample.
-4. Train & evaluate Linear regression model
-5. Train Random Forest Regressor
-9. Test & Evaluate RF model
-10. Calvulate feature importance ans
-11. Evaluate RF model again
-12. Comparing results
+3. Split the data without dropping any variables into train & test sample.
+4. Train & evaluate Linear regression model.
+5. Feature engineering using Rolling Window statistics.
+6. Split data into train & test.
+7. Train & evaluate Random Forest Regressor
+8. Evaluate RF model.
+9. Re-train RF regressor after dropping variables (with only selected variables)
+10. Hyperparameter tuning of the newly trained RF model.
+11. Evaluate the tuned RF model
+12. Train & evaluate Gradiant Boosting with only selected variables.
+13. Hyperparameter tuning of GB model.
+14. Evaluate the tuned GB model.
+15. Export feature importance & forecast results into csv files for furether visualisation.
+
 
 ## Understanding the data
 
