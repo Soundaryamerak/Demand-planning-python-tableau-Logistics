@@ -6,7 +6,9 @@ The dataset of a brazilian logistics company collected over a period of 60 days.
 /
 ## ML models used:
 Linear Regression
+
 Random Forest Regression
+
 Gradiant Boosting
 
 ## Steps taken in Python
