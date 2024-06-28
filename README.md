@@ -1,4 +1,4 @@
-## Demand planning and forecasting & visualisation using Python and Tableau
+## Demand forecasting & visualisation using Python and Tableau
 Determining the best ML models to forecast demand for a Brazilian Logistics Company and comparing results.
 
 ## Data
