@@ -13,7 +13,7 @@ Gradiant Boosting
 
 ## Steps taken in Python code.
 1. Import all necessary libraries (matplotlib, seaborn, pandas, numpy, Scikit-learn (Sklearn - model selection, linear model, preprocessing, metrics), imblearn, collections,Ucimlrepo)
-2. Understand the data available with visualisation
+2. Understand the data with summarizing & visualisation
 3. Split the data without dropping any variables into train & test sample.
 4. Train & evaluate Linear regression model.
 5. Feature engineering using Rolling Window statistics.
@@ -31,31 +31,20 @@ Gradiant Boosting
 
 ## Understanding the data
 
-1. There are a total of 31 columns, 28 of them features (v1 to v28), Time elapsed (sec), Amount and Class.
-2. Class (target variable) is 0 or 1, for non-fraudulent and fraudulent transaction. 492 fraudulent and 284315 non-fraudulent activities.
-
-    ![image](https://github.com/Soundaryamerak/Fraud-detection-Python-credit-card-transactions/assets/170541567/72ee2b5c-dd07-4515-8ae5-3adb6757b324)
-
-
-3. Majority of fraudulent transactioins are of amounts between 0-500. Specifically, 113 (23%) of them are of the amount 1.
-    ![image](https://github.com/Soundaryamerak/Fraud-detection-Python-credit-card-transactions/assets/170541567/28c3cd0e-9c0f-4bf1-a5e7-df073e07efef)
-    ![image](https://github.com/Soundaryamerak/Fraud-detection-Python-credit-card-transactions/assets/170541567/c7c56b07-17c7-46cc-9004-00a08473b4a3)
+1. A total of 13 variables, with *week of the month and day of the week* to denote the date, 10 different types of orders(*Features*), and total orders as *Target*, and no missing values. Most orders of the quantity between 250 to 350
+   ![image](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/assets/170541567/b39d99e5-ae16-42d5-b154-ca214f3fbdd5)
+   ![image](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/assets/170541567/2d367f07-791c-4071-ac6e-420ccb8dab56)
 
 
-5. There are no missing values as indicated by the heatmap
+2. A strong corelation can be observed between features Non-urgent orders and order type B with Total orders. Order type (c), Banking orders(2), and Urgent orders follow next. Another notable correlation is between the features order type B and non-urgent orders. (The 2 more corelated features with total orders).
+   ![image](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/assets/170541567/1f3d85d4-9a8b-4cc7-b4b4-60b4fb91699e)
 
-    ![image](https://github.com/Soundaryamerak/Fraud-detection-Python-credit-card-transactions/assets/170541567/1fae9bab-fd91-4b7b-bce5-8056f55edfa3)
+## Evaluation of Linear regression model
+![image](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/assets/170541567/d10624f3-f0ba-4672-8385-a6aec848784a)
 
-6. No highly correlated variables as observed from the correlation matrix.
 
-    ![image](https://github.com/Soundaryamerak/Fraud-detection-Python-credit-card-transactions/assets/170541567/3f84f3d4-5d45-4dce-8edf-3c3af1403f20)
+## Evaluation after Random forest regression model
 
-## Evaluation of Logistic regression model
-*Accuracy: 0.9992225276378884*
-
-![image](https://github.com/Soundaryamerak/Fraud-detection-Python-credit-card-transactions/assets/170541567/a709603b-6ab5-49c2-b240-aa8aaaef6534)
-
-## Data after Downsampling
 
 ![image](https://github.com/Soundaryamerak/Fraud-detection-Python-credit-card-transactions/assets/170541567/23157d51-2525-42ce-b361-8f76a8dc4e02)
 
