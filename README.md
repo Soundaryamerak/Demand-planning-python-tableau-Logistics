@@ -34,24 +34,26 @@ Gradiant Boosting
 
 ## Performance parameters
 
-1. Gradient Boosting emerges as the best performing model with the lowest MAE, RMSE, MSE, and the highest R2 value. It consistently shows the smallest errors and the best fit to the data.
-2. GB hyperparameter tuning also performs well, closely following the Gradient Boosting model across all metrics.
-3. RF Hyperparameter tuning and RF top features perform reasonably well but are slightly inferior to the Gradient Boosting models.
-4. RF feature engineering performs the worst across all metrics, indicating it may not be the best approach for this demand forecasting task.
+1. Gradient Boosting shows best performance with the lowest MAE, RMSE, MSE, and the highest R2 value. It consistently shows the smallest errors and the best fit to the data.
+2. GB after hyperparameter tuning also performance closely follows the Gradient Boosting model across all metrics.
+3. Random Forest models perform reasonably well but are slightly inferior to the Gradient Boosting models.
+
 **The Gradient Boosting model, especially without hyperparameter tuning, appears to be the most effective model for this demand forecasting task.**
 
 ![image](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/assets/170541567/b4c6de96-7a50-4c5e-a1b0-199e1ed0844a)
 
 ## Feature importances
 
-**Observation**
+**Non-urgent orders and Order Type B** are the most significant features impacting the model's predictions.
+
+_Point to note: The importance of these two features changes significantly before and after hyperparameter tuning og Gradiant Boosting._ 
 
 ![image](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/assets/170541567/5715759c-cb88-424b-ab2e-72334b7170f8)
 
 
 ## Forecast Results
 
-**Observation**
+**The Gradient Boosting model (orange line) most closely follows the actual demand trend.
 
 ![image](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/assets/170541567/b1906170-3be0-442b-b166-d6f0ce0ea19e)
 
