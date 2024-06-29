@@ -25,7 +25,7 @@ Gradiant Boosting
    ![image](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/assets/170541567/1f3d85d4-9a8b-4cc7-b4b4-60b4fb91699e)
 
 
-## Commparing the performnace of various models 
+## Commparing the performance of various models 
 
 **[Collated excel sheet of exported csv files](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/blob/main/Exported%20-Collated.xlsx)**
 
@@ -38,7 +38,18 @@ Gradiant Boosting
 
 ![image](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/assets/170541567/b4c6de96-7a50-4c5e-a1b0-199e1ed0844a)
 
+## Feature importances
 
+**Observation**
+
+![image](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/assets/170541567/5715759c-cb88-424b-ab2e-72334b7170f8)
+
+
+## Forecast Results
+
+**Observation**
+
+![image](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/assets/170541567/b1906170-3be0-442b-b166-d6f0ce0ea19e)
 
 
 ## Steps taken in Python code. [Python File](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/blob/main/Demand%20Forecasting.ipynb)
