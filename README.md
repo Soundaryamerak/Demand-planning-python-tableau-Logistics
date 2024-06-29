@@ -11,6 +11,15 @@ Random Forest Regression
 
 Gradiant Boosting
 
+
+
+
+
+## Visualising the GB Model results in Tableau
+
+![image](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/assets/170541567/57ceb1cc-99c2-4cf4-86cb-69eb35d3c45e)
+
+
 ## Steps taken in Python code. [Python File](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/blob/main/Demand%20Forecasting.ipynb)
 
 1. Import all necessary libraries (matplotlib, seaborn, pandas, numpy, Scikit-learn (Sklearn - model selection, linear model, preprocessing, metrics), imblearn, collections,Ucimlrepo)
@@ -75,10 +84,6 @@ Gradiant Boosting
 
 ![image](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/assets/170541567/740f65a5-8fe3-49dc-a42c-a05675afbdb6)
 
-
-## Visualising using Tableau
-
-![image](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/assets/170541567/57ceb1cc-99c2-4cf4-86cb-69eb35d3c45e)
 
 
 ## Comparing results
