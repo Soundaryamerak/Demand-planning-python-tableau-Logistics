@@ -1,4 +1,4 @@
-# Demand forecasting & visualisation using Python and Tableau
+# Demand forecasting daily demand orders & visualisation using Python and Tableau
 Determining the best ML models to forecast demand for a Brazilian Logistics Company and comparing results.
 
 ## Data
@@ -34,7 +34,11 @@ Gradiant Boosting
 
 ## Performance parameters
 
-**Observation**
+1. Gradient Boosting emerges as the best performing model with the lowest MAE, RMSE, MSE, and the highest R2 value. It consistently shows the smallest errors and the best fit to the data.
+2. GB hyperparameter tuning also performs well, closely following the Gradient Boosting model across all metrics.
+3. RF Hyperparameter tuning and RF top features perform reasonably well but are slightly inferior to the Gradient Boosting models.
+4. RF feature engineering performs the worst across all metrics, indicating it may not be the best approach for this demand forecasting task.
+**The Gradient Boosting model, especially without hyperparameter tuning, appears to be the most effective model for this demand forecasting task.**
 
 ![image](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/assets/170541567/b4c6de96-7a50-4c5e-a1b0-199e1ed0844a)
 
