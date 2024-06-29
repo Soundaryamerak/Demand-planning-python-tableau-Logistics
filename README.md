@@ -29,10 +29,15 @@ Gradiant Boosting
 
 **[Collated excel sheet of exported csv files](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/blob/main/Exported%20-Collated.xlsx)**
 
-**[With Tableau](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/blob/main/Demand%20Forecasting.twb)**
+**[Tableau Visualisation](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/blob/main/Demand%20Forecasting.twb)**
 
 
-**Performance parameters**
+## Performance parameters
+
+**Observation**
+
+![image](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/assets/170541567/b4c6de96-7a50-4c5e-a1b0-199e1ed0844a)
+
 
 
 
