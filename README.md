@@ -11,7 +11,7 @@ Random Forest Regression
 
 Gradiant Boosting
 
-## Understanding the data
+## Understanding the data [Python File](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/blob/main/Demand%20Forecasting.ipynb)
 
 1. A total of 13 variables, with *week of the month and day of the week* to denote the date, 10 different types of orders(*Features*), and total orders as *Target*, and no missing values. Most orders of the quantity between 250 to 350
    
@@ -58,7 +58,7 @@ _Point to note: The importance of these two features changes significantly befor
 ![image](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/assets/170541567/b1906170-3be0-442b-b166-d6f0ce0ea19e)
 
 
-## Steps taken in Python code. [Python File](https://github.com/Soundaryamerak/Demand-planning-python-tableau-Logistics/blob/main/Demand%20Forecasting.ipynb)
+## Steps taken in Python code. 
 
 1. Import all necessary libraries (matplotlib, seaborn, pandas, numpy, Scikit-learn (Sklearn - model selection, linear model, preprocessing, metrics), imblearn, collections,Ucimlrepo)
 2. Understand the data with summarizing & visualisation
